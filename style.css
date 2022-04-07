@@ -1,0 +1,336 @@
+* {
+  font-family: "Noto Sans Display", sans-serif;
+  position: relative;
+}
+body {
+  background-color: rgb(76, 81, 83);
+}
+.sheet {
+  background-color: white;
+  padding: auto;
+  width: 650px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+}
+.sheet-head {
+  background-color: rgb(54, 48, 48);
+  width: auto;
+  height: 50%;
+}
+/* .sheet-body{} */
+.sheet-side {
+  position: absolute;
+  background: rgb(61, 61, 143);
+  width: 30%;
+  left: 20px;
+  top: 0%;
+  bottom: 20px;
+  color: aliceblue;
+}
+.sheet-side-bottom {
+  position: absolute;
+  background-color: rgb(54, 48, 48);
+  width: 30%;
+  left: 20px;
+  bottom: 20px;
+  top: 80%;
+  color: aliceblue;
+}
+.headimg {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  z-index: 0;
+}
+.head-tittle {
+  margin-left: 230px;
+  margin-top: -90px;
+  color: aliceblue;
+  font-size: 40px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  /* text-decoration: underline; */
+  font-weight: bold;
+}
+.head-subtittle {
+  margin-left: 230px;
+  margin-top: -28px;
+  background: rgb(61, 61, 143);
+  padding: 5px;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: -1px;
+  font-size: 18px;
+  width: 190px;
+  text-transform: uppercase;
+}
+.about-me {
+  color: aliceblue;
+  margin-left: 230px;
+}
+.about-me h3 {
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.about-me p {
+  margin-top: -10px;
+  font-size: 12px;
+  width: 400px;
+}
+.about-me img {
+  float: right;
+  width: 85px;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+.mySkill {
+  color: aliceblue;
+  margin-left: 230px;
+}
+.mySkill td {
+  font-size: 14px;
+}
+
+.first-list-one {
+  position: absolute;
+  background-color: aliceblue;
+  width: 15px;
+  height: 3px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 80px solid rgb(61, 61, 143);
+}
+
+.first-list-two {
+  position: absolute;
+  background-color: aliceblue;
+  width: 25px;
+  height: 4px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 70px solid rgb(61, 61, 143);
+}
+.first-list-three {
+  position: absolute;
+  background-color: aliceblue;
+  width: 45px;
+  height: 4px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 50px solid rgb(61, 61, 143);
+}
+.first-list-four {
+  position: absolute;
+  background-color: aliceblue;
+  width: 35px;
+  height: 3px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 60px solid rgb(61, 61, 143);
+}
+.second-list-one {
+  position: absolute;
+  background-color: aliceblue;
+  width: 45px;
+  height: 3px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 50px solid rgb(61, 61, 143);
+}
+.second-list-two {
+  position: absolute;
+  background-color: aliceblue;
+  width: 55px;
+  height: 4px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 40px solid rgb(61, 61, 143);
+}
+.second-list-three {
+  position: absolute;
+  background-color: aliceblue;
+  width: 60px;
+  height: 4px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 35px solid rgb(61, 61, 143);
+}
+.second-list-four {
+  position: absolute;
+  background-color: aliceblue;
+  width: 45px;
+  height: 3px;
+  margin-top: 8px;
+  margin-left: 5px;
+  border-left: 50px solid rgb(61, 61, 143);
+}
+.table-two {
+  position: absolute;
+  margin-top: -78px;
+  margin-left: 200px;
+}
+.sheet-body {
+  margin-left: 230px;
+}
+.sheet-body h3 {
+  text-transform: uppercase;
+}
+.inten-one {
+  width: 180px;
+}
+.date-one {
+  margin-top: -10px;
+  font-size: 13px;
+  background: rgb(61, 61, 143);
+  padding: 2px;
+  color: aliceblue;
+  text-align: center;
+  /* letter-spacing: -1px; */
+  /* font-size: 18px; */
+  width: 170px;
+  text-transform: uppercase;
+}
+.inten-one h5 {
+  margin-top: -17px;
+}
+.inten-one h6 {
+  margin-top: -17px;
+  font-size: 12px;
+}
+.inten-one p {
+  margin-top: -17px;
+  font-size: 12px;
+}
+.inten-two {
+  width: 195px;
+  margin-top: -175px;
+  margin-left: 210px;
+}
+.date-two {
+  margin-top: -10px;
+  font-size: 13px;
+  background: rgb(61, 61, 143);
+  padding: 2px;
+  color: aliceblue;
+  text-align: center;
+  /* letter-spacing: -1px; */
+  /* font-size: 18px; */
+  width: 170px;
+  text-transform: uppercase;
+}
+.inten-two h5 {
+  margin-top: -17px;
+}
+.inten-two h6 {
+  margin-top: -17px;
+  font-size: 12px;
+}
+.inten-two p {
+  margin-top: -17px;
+  font-size: 12px;
+}
+.date-three {
+  /* margin-top: -10px; */
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: rgb(61, 61, 143);
+  padding: 2px;
+  color: aliceblue;
+  text-align: center;
+  /* letter-spacing: -1px; */
+  /* font-size: 18px; */
+  width: 130px;
+  text-transform: uppercase;
+}
+.exp h5 {
+  margin-top: -13px;
+}
+.exp p {
+  margin-top: -17px;
+  font-size: 12px;
+  margin-bottom: 18px;
+  /* text-align: right; */
+  margin-right: 90px;
+}
+.profile-img {
+  position: absolute;
+  width: 160px;
+  margin-top: 20px;
+  margin-left: 18px;
+  border-radius: 50%;
+}
+.side-tittle {
+  margin-left: 18px;
+}
+.add {
+  margin-top: 220px;
+}
+.add h5 {
+  margin-top: -15px;
+}
+.social-links {
+  margin-top: 50px;
+}
+.social-links img {
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.social-links a {
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+.social-links a:link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.social-links a:visited {
+  text-decoration: none;
+  color: rgb(86, 214, 231);
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.social-links a:active {
+  text-decoration: underline;
+  color: rgb(54, 48, 48);
+}
+.sheet-side-bottom h4 {
+  margin-left: 18px;
+}
+.icon {
+  width: 25px;
+  margin-left: 5px;
+}
+.ttt {
+  margin-top: -3px;
+}
+.travel {
+  margin-left: 10px;
+}
+.cycling {
+  margin-left: 70px;
+  margin-top: -60px;
+}
+.kayak {
+  margin-left: 140px;
+  margin-top: -63px;
+}
+.movies {
+  margin-left: 10px;
+}
+.musics {
+  margin-left: 70px;
+  margin-top: -63px;
+}
+.gym {
+  margin-left: 140px;
+  margin-top: -55px;
+}
